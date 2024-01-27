@@ -1,0 +1,79 @@
+root@ubuntu-4gb-nbg1-2:~# curl -sL yabs.sh | bash
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+#              Yet-Another-Bench-Script              #
+#                     v2024-01-01                    #
+# https://github.com/masonr/yet-another-bench-script #
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
+
+Sat Jan 27 07:24:45 PM UTC 2024
+
+Basic System Information:
+---------------------------------
+Uptime     : 0 days, 0 hours, 19 minutes
+Processor  : Intel Xeon Processor (Skylake, IBRS)
+CPU cores  : 2 @ 2099.998 MHz
+AES-NI     : ✔ Enabled
+VM-x/AMD-V : ❌ Disabled
+RAM        : 3.7 GiB
+Swap       : 0.0 KiB
+Disk       : 37.5 GiB
+Distro     : Ubuntu 22.04.3 LTS
+Kernel     : 5.15.0-92-generic
+VM Type    : KVM
+IPv4/IPv6  : ✔ Online / ✔ Online
+
+IPv6 Network Information:
+---------------------------------
+ISP        : Hetzner Online GmbH
+ASN        : AS24940 Hetzner Online GmbH
+Host       : Hetzner Online GmbH
+Location   : Nuremberg, Bavaria (BY)
+Country    : Germany
+
+fio Disk Speed Tests (Mixed R/W 50/50) (Partition /dev/sda1):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 114.51 MB/s  (28.6k) | 1.14 GB/s    (17.9k)
+Write      | 114.81 MB/s  (28.7k) | 1.15 GB/s    (18.0k)
+Total      | 229.32 MB/s  (57.3k) | 2.30 GB/s    (35.9k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 1.64 GB/s     (3.2k) | 1.80 GB/s     (1.7k)
+Write      | 1.73 GB/s     (3.3k) | 1.92 GB/s     (1.8k)
+Total      | 3.37 GB/s     (6.5k) | 3.72 GB/s     (3.6k)
+
+iperf3 Network Speed Tests (IPv4):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping           
+-----           | -----                     | ----            | ----            | ----           
+Clouvider       | London, UK (10G)          | 6.13 Gbits/sec  | 4.72 Gbits/sec  | 15.5 ms        
+Scaleway        | Paris, FR (10G)           | 10.8 Gbits/sec  | 980 Mbits/sec   | 13.7 ms        
+NovoServe       | North Holland, NL (40G)   | 9.70 Gbits/sec  | 8.70 Gbits/sec  | 10.7 ms        
+Uztelecom       | Tashkent, UZ (10G)        | 1.84 Gbits/sec  | 1.75 Gbits/sec  | 99.6 ms        
+Clouvider       | NYC, NY, US (10G)         | 1.74 Gbits/sec  | 1.38 Gbits/sec  | 85.3 ms        
+Clouvider       | Dallas, TX, US (10G)      | 1.46 Gbits/sec  | 1.46 Gbits/sec  | 121 ms         
+Clouvider       | Los Angeles, CA, US (10G) | 703 Mbits/sec   | 1.07 Gbits/sec  | 150 ms         
+
+iperf3 Network Speed Tests (IPv6):
+---------------------------------
+Provider        | Location (Link)           | Send Speed      | Recv Speed      | Ping           
+-----           | -----                     | ----            | ----            | ----           
+Clouvider       | London, UK (10G)          | 6.25 Gbits/sec  | 6.22 Gbits/sec  | 15.4 ms        
+Scaleway        | Paris, FR (10G)           | 9.80 Gbits/sec  | busy            | 14.2 ms        
+NovoServe       | North Holland, NL (40G)   | 9.86 Gbits/sec  | 10.1 Gbits/sec  | 10.6 ms        
+Uztelecom       | Tashkent, UZ (10G)        | 1.53 Gbits/sec  | 1.95 Gbits/sec  | 94.7 ms        
+Clouvider       | NYC, NY, US (10G)         | 930 Mbits/sec   | 2.13 Gbits/sec  | 83.7 ms        
+Clouvider       | Dallas, TX, US (10G)      | 950 Mbits/sec   | 1.42 Gbits/sec  | 120 ms         
+Clouvider       | Los Angeles, CA, US (10G) | 1.05 Gbits/sec  | 1.12 Gbits/sec  | 151 ms         
+
+Geekbench 6 Benchmark Test:
+---------------------------------
+Test            | Value                         
+                |                               
+Single Core     | 741                           
+Multi Core      | 1202                          
+Full Test       | https://browser.geekbench.com/v6/cpu/4615146
+
+YABS completed in 18 min 55 sec

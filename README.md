@@ -6,6 +6,7 @@ To get a certain statistical relevance, we try to make several benchmarks of eac
 Date|Status|Type|Architecture|Size|Location|OS Image|yabs Version|Geekbench Link|Result Link
 ---|---|---|---|---|---|---|---|---|---
 27.01.2024|fresh install|shared|x86|CX11|Nürnberg|Ubuntu 22.04|v2024-01-01|[Result](https://browser.geekbench.com/v6/cpu/4614102)|[Result](result/20240127_0_cx11_nuernberg.txt)|
+27.01.2024|fresh install|shared|x86|CX21|Nürnberg|Ubuntu 22.04|v2024-01-01|[Result](https://browser.geekbench.com/v6/cpu/4614102)|[Result](result/20240127_0_cx21_nuernberg.txt)|
 
 ## About the result file
 How to read the name of the result file?  
