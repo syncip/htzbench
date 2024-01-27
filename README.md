@@ -58,5 +58,5 @@ curl -sL yabs.sh | bash
 # YABS Script
 ## 2024-01-01
 ````
-curl -sL 
+curl -sL https://raw.githubusercontent.com/syncip/htzbench/main/yabs/2024-01-01_yabs.sh  | bash
 ````
