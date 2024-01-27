@@ -12,7 +12,7 @@ Date|VPS Type|Achritcture|VPS Size|Location|OS Image|Command|yabs Version|Link
 How to read the name of the result file?
 Example: 20240127_0_cx11_nuernberg.txt
 
-**20240127**_0_cx11_nuernberg.txt -> year, month and day of the benchmark
-20240127_**0**_cx11_nuernberg.txt -> Bechmark Number
-20240127_0_**cx11**_nuernberg.txt -> Server Type
-20240127_0_cx11_**nuernberg**.txt -> Server Location
+**20240127**_0_cx11_nuernberg.txt -> year, month and day of the benchmark  
+20240127_**0**_cx11_nuernberg.txt -> Bechmark Number  
+20240127_0_**cx11**_nuernberg.txt -> Server Type  
+20240127_0_cx11_**nuernberg**.txt -> Server Location  
