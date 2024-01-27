@@ -35,6 +35,10 @@ We use the following procedure for our benchmarks:
 ````
 apt update & apt upgrade \\
 reboot \\
+````
+
+Make sure there are no more updates and run the benchmark.
+````
 apt update & apt upgrade \\
 curl -sL yabs.sh | bash
 ````
