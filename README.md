@@ -1,6 +1,6 @@
 # About htzbench
 We try to perform a [yabs benchmark](https://github.com/masonr/yet-another-bench-script) on all hetzner servers and to collect and update the results.  
-To get a certain statistical relevance, we try to make several benchmarks of each server (if possible on different days and times). Since this is very time-consuming and costly due to the number of servers that Hetzner offers, we are dependent on the help of the community. If you can support us with a benchmark result, please send it to us as a pull request.
+To get a certain statistical relevance, we try to make several benchmarks of each server (if possible there are 3 bechmarks on different days and times). Since this is very time-consuming and costly due to the number of servers that Hetzner offers, we are dependent on the help of the community. If you can support us with a benchmark result, please send it to us as a pull request.
 
 # Result Overview
 Date|Status|Type|Architecture|Size|Location|OS Image|yabs Version|Geekbench Link|Result Link
@@ -29,4 +29,12 @@ Example: 20240127_0_cx11_nuernberg.txt
 - resulte link (raw yabs result output)
 
 # Commit a result
-If you have a result file, you can send it to this repository as a pull request. Please pay attention to the form of the result file and the naming (use an [example result](result/) for this).
+If you have a result file, you can send it to this repository as a pull request. Please pay attention to the form of the result file and the naming (use an [example result](result/) for this).  
+When submitting, please make sure that your server is not overloaded with other tasks (ideally the server is new). Do an update before a benchmark and make sure that your server is up to date.
+We use the following procedure for our benchmarks:
+``
+apt update & apt upgrade
+Server reboot
+apt update & apt upgrade
+curl -sL yabs.sh | bash
+``
