@@ -4,9 +4,9 @@ hetzner-benchmark
 yabs Benchmark results for every Hetzner Server
 
 # Results
-Date|VPS Type|Achritcture|VPS Size|Location|OS Image|Command|yabs Version|Link
+Date|VPS Type|Achritcture|VPS Size|Location|OS Image|yabs Version|Link
 ---|---|---|---|---|---|---|---|---
-27.01.2024|shared|x86|CX11|Nürnberg|Ubuntu 22.04|"curl -sL yabs.sh | bash"|v2024-01-01||
+27.01.2024|shared|x86|CX11|Nürnberg|Ubuntu 22.04|v2024-01-01||
 
 ## About the result file
 How to read the name of the result file?  
