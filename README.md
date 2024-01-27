@@ -54,3 +54,9 @@ Make sure there are no more updates and run the benchmark.
 apt update & apt upgrade \
 curl -sL yabs.sh | bash
 ````
+
+# YABS Script
+## 2024-01-01
+````
+curl -sL 
+````
