@@ -1,4 +1,5 @@
 root@ubuntu-4gb-nbg1-2:~# curl -sL yabs.sh | bash
+# ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## #
 #              Yet-Another-Bench-Script              #
 #                     v2024-01-01                    #
 # https://github.com/masonr/yet-another-bench-script #
