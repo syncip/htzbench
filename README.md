@@ -29,8 +29,19 @@ Example: 20240127_0_cx11_nuernberg.txt
 - resulte link (raw yabs result output)
 
 # Commit a result
+## Commit a result via pull request
 If you have a result file, you can send it to this repository as a pull request. Please pay attention to the form of the result file and the naming (use an [example result](result/) for this).  
 When submitting, please make sure that your server is not overloaded with other tasks (ideally the server is new). Do an update before a benchmark and make sure that your server is up to date.
+
+## Commit a result via email
+If you don't have a Github account or can't or don't want to send a pull request for other reasons, you are welcome to send your result to me by e-mail.  
+Just send an e-mail (without attachment) with the result and the required data (see "What data do we collect?").  
+
+````
+hetzner-benchmark@mrdoener.com
+````
+
+## How to run a benchmark
 We use the following procedure for our benchmarks:  
 ````
 apt update & apt upgrade \
