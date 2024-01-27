@@ -33,12 +33,12 @@ If you have a result file, you can send it to this repository as a pull request.
 When submitting, please make sure that your server is not overloaded with other tasks (ideally the server is new). Do an update before a benchmark and make sure that your server is up to date.
 We use the following procedure for our benchmarks:  
 ````
-apt update & apt upgrade \\
-reboot \\
+apt update & apt upgrade \
+reboot
 ````
 
 Make sure there are no more updates and run the benchmark.
 ````
-apt update & apt upgrade \\
+apt update & apt upgrade \
 curl -sL yabs.sh | bash
 ````
