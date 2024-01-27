@@ -55,8 +55,9 @@ apt update & apt upgrade \
 curl -sL yabs.sh | bash
 ````
 
-# YABS Script Backup
-## 2024-01-01
+# Shortcuts
+
+Run benchmark in Background and send results to ntfy  
 ````
-curl -sL https://raw.githubusercontent.com/syncip/htzbench/main/yabs/2024-01-01_yabs.sh  | bash
+bench=$(curl -sL yabs.sh | bash )  && curl -d "$bench" ntfy.mrdoener.com/benchmark & 
 ````
