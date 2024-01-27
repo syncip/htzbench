@@ -32,9 +32,9 @@ Example: 20240127_0_cx11_nuernberg.txt
 If you have a result file, you can send it to this repository as a pull request. Please pay attention to the form of the result file and the naming (use an [example result](result/) for this).  
 When submitting, please make sure that your server is not overloaded with other tasks (ideally the server is new). Do an update before a benchmark and make sure that your server is up to date.
 We use the following procedure for our benchmarks:  
-``
+````
 apt update & apt upgrade \\
-Server reboot \\
+reboot \\
 apt update & apt upgrade \\
 curl -sL yabs.sh | bash
-``
+````
